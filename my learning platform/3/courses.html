@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Educational Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Courses</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Available Courses</h2>
+            <label for="filter">Filter by Category:</label>
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+                <option value="responsive">Responsive Design</option>
+            </select>
+
+            <div class="course-list" id="course-list">
+                <div class="course" data-category="html">
+                    <h3><a href="course-details.html?course=html">Introduction to HTML</a></h3>
+                    <p>Learn the basics of HTML, the essential building block of the web.</p>
+                </div>
+                <div class="course" data-category="css">
+                    <h3><a href="course-details.html?course=css">CSS Basics</a></h3>
+                    <p>Understand how to style your web pages with CSS.</p>
+                </div>
+                <div class="course" data-category="js">
+                    <h3><a href="course-details.html?course=js">JavaScript for Beginners</a></h3>
+                    <p>Get started with JavaScript and learn how to make interactive websites.</p>
+                </div>
+                <div class="course" data-category="responsive">
+                    <h3><a href="course-details.html?course=responsive">Responsive Web Design</a></h3>
+                    <p>Learn how to create web pages that look great on all devices.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Educational Website</p>
+    </footer>
+</body>
+</html>

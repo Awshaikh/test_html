@@ -1,0 +1,6 @@
+my-learning-platform/
+│
+├── index.html
+├── courses.html
+├── about.html
+└── styles.css
